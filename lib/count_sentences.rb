@@ -29,6 +29,9 @@ class String
 
   def count_sentences
   #  Counts the number of sentences stop & start at punctuation (.split)
-    if self.count_sentences
+    self.count_sentences
+    return count_sentences.length   
+    end    
   end
+  
 end
