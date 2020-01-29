@@ -5,7 +5,11 @@ class String
   def sentence?
     # truefalse if includes? ends with a period 
     if self.includes? "."
-      true
+      return true
+    else
+      
+    end   
+      
   end
 
   def question?
