@@ -3,8 +3,9 @@ require 'pry'
 class String
 
   def sentence?
-    # truefalse if ends with a period 
-    if self.countains?
+    # truefalse if includes? ends with a period 
+    if self.includes? "."
+      true
   end
 
   def question?
