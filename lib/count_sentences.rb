@@ -28,9 +28,9 @@ class String
   end
 
   def count_sentences
-  #  Counts the number of sentences stop & start at punctuation (.split [.?!])
-    self.count_sentences
-    return count_sentences.length   
+  #  Counts the number of sentences stop & start at punctuation (.split [.?!]), make each sentence it's own array, count the number of sentence arrays
+    sentence =  self.split([.?!])
+    return sentence.length   
     end    
   end
   
