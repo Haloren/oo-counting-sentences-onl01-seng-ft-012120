@@ -29,7 +29,8 @@ class String
 
   def count_sentences
   #  Counts the number of sentences stop & start at punctuation (.split [.?!]), make each sentence it's own array, count the number of sentence arrays
-    self.split(/[.?!]/).count ()  
+    self.split(/[.?!]/).count 
+    #https://stackoverflow.com/questions/42216136/count-the-number-of-sentences-in-a-paragraph-using-ruby
     end    
   end
   
