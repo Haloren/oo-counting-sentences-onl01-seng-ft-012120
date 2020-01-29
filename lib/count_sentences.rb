@@ -28,6 +28,7 @@ class String
   end
 
   def count_sentences
-
+  #  Counts the number of sentences 
+    if self.count_sentences
   end
 end
