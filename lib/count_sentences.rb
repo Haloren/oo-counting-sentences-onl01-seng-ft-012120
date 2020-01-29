@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    # method t or f if ends with a period 
+    # truefalse if ends with a period 
+    if self.countains?
   end
 
   def question?
