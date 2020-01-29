@@ -3,13 +3,12 @@ require 'pry'
 class String
 
   def sentence?
-    # truefalse if includes? ends with a period 
+    # truefalse if ends with (includes?) a period 
     if self.includes? "."
       return true
     else
-      
+      return false
     end   
-      
   end
 
   def question?
