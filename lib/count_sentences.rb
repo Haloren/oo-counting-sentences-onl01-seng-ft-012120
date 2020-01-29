@@ -4,7 +4,7 @@ class String
 
   def sentence?
     # truefalse if ends with (includes?) a period 
-    if self.includes? "."
+    if self.include? "."
       return true
     else
       return false
